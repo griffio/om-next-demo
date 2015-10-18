@@ -1,7 +1,13 @@
 .idea
 todomvc/target
 todomvc/resources/public/js
+<<<<<<< HEAD
 todomvc/.lein*
 todomvc/.nrepl*
 todomvc/figwheel_server.log
 .repl*
+=======
+.repl*
+todomvc/.lein-repl-history
+todomvc/om_next_demo.iml
+>>>>>>> updates to forked
