@@ -25,4 +25,8 @@ Step 1 - build cljs
 
 Step 2 - connect to browser repl
 
+~~~
+cljs.user=> (js/alert "Hello browser")
+~~~
+
 ![Step 2](https://raw.githubusercontent.com/griffio/griffio.github.io/master/public/clojure-brepl.png)
