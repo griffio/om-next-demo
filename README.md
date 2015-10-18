@@ -5,10 +5,24 @@
 
 > _[Om - github.com/swannodette/om](http://github.com/swannodette/om)_
 
-## Running
 
-    cd todomvc
-    lein trampoline run -m clojure.main script/build.clj
-    lein trampoline run -m clojure.main script/server.clj
+Run dev
 
-Head on to http://localhost:8081/ to see the running application.
+~~~
+lein repl
+~~~
+
+Step 0 - Starting dev on localhost:8081 using internal component
+
+~~~
+(require '[todomvc.core])
+(todomvc.core/dev-start)
+~~~
+
+Step 1 - build cljs
+
+![Step 1](https://raw.githubusercontent.com/griffio/griffio.github.io/master/public/clojure-build.png)
+
+Step 2 - connect to browser repl
+
+![Step 2](https://raw.githubusercontent.com/griffio/griffio.github.io/master/public/clojure-brepl.png)
