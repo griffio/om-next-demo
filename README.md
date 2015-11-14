@@ -5,7 +5,7 @@
 
 > _[Om - github.com/swannodette/om](http://github.com/swannodette/om)_
 
-(alpha20)
+[alpha22](https://clojars.org/org.omcljs/om)
 
 Run dev
 
