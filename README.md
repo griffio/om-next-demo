@@ -7,3 +7,8 @@
 
 [alpha31](https://clojars.org/org.omcljs/om)
 
+~~~
+cd todomvc
+lein trampoline run -m clojure.main script/build.clj
+lein trampoline run -m clojure.main script/server.clj
+~~~
